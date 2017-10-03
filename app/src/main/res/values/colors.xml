@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_light_black">#ff565656</color>
+    <color name="color_red">#ffff0000</color>
+    <color name="color_bule">#ff327fc7</color>
+    <color name="color_bule_2">#ff309be5</color>
+    <color name="color_green">#ff12c433</color>
+    <color name="color_orange">#ffff4400</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="transparent_white">#4cffffff</color>
+
+    <color name="color_grey">#ffbebebe</color>
+    <color name="color_dark_grey">#ff6d6d6d</color>
+    <color name="color_more_dark_grey">#ff565656</color>
+    <color name="color_light_grey">#ffeeeeee</color>
+    <color name="color_more_light_grey">#fffafafa</color>
+    <color name="color_more_light_grey_2">#ffcbcbcb</color>
+
+    <color name="color_border">#ffd2d2d2</color>
+
+    <color name="color_radio_group_background">#fff3f3f3</color>
+    <color name="color_radio_button_selected_background">#ff176bb5</color>
+
+    <color name="actionbar_layout_background">#ff327fc7</color>
+    <color name="actionbar_layout_lucency_grey_color">#645e5e5e</color>
+
+    <color name="guide_1_color">#ff92e02c</color>
+    <color name="guide_2_color">#ffffc171</color>
+    <color name="guide_3_color">#ff00d2ff</color>
+    <color name="guide_4_color">#ffff9b9b</color>
+
+
+    <color name="fr_item_color">#d7d7d7</color>
+
+</resources>

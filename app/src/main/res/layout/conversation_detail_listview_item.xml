@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <TableLayout
+        android:id="@+id/send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0"
+        android:visibility="gone" >
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+
+            <TextView
+                android:id="@+id/sendbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qipao_left"
+                android:gravity="left|center_vertical"
+                android:text="as1as1a" />
+
+            <TextView
+                android:id="@+id/senddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="1999-99-99"
+                android:textColor="@android:color/darker_gray" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/rec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:visibility="visible" >
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/recdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="1999-99-99"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/recbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qipao_right"
+                android:gravity="left|center_vertical"
+                android:text="as1as" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

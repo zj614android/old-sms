@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search"
+        android:showAsAction="never"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/edit"
+        android:showAsAction="never"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/canceledit"
+        android:showAsAction="never"
+        android:title="@string/cancelEdit"
+        android:visible="false"
+        />
+
+</menu>

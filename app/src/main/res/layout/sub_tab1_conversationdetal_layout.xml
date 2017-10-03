@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup" >
+
+        <!-- android:background="@drawable/detailback" -->
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_sub_tab1_head_back_button"
+            android:text="返回"
+            android:textColor="@drawable/selector_textcolor"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="140dp"
+   			android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="honeyh"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_conversation_detal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/detal_foot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup"
+        android:orientation="horizontal" >
+
+        <!-- android:background="@drawable/detailback" -->
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/slector_detail_edittext" />
+
+        <Button
+            android:id="@+id/sendmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_sub_tab1_head_send_button"
+            android:text="发送"
+            android:textColor="@drawable/selector_textcolor"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+</LinearLayout>
